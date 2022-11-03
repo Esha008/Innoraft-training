@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous">
+    </script>
+    <title>Effects</title>
+    <link rel="stylesheet" href="lay.css">
+</head>
+<body>
+    <header>Header</header>
+    <div class="flex-container">
+        <div id="sidebar">Sidebar</div>
+        <div id="box">
+            <div id="main">Main Content</div>
+            <div id="extra">Extra Content</div>
+        </div>
+    </div>
+    <div id="content">
+        <div id="close">x</div>
+        <h3>I am popup</h3>
+    </div>
+    <footer>Footer</footer>
+    <script>
+        $(document).ready(function(){
+            $("header").on({
+                click: function(){
+                    $(this).css("background-color","pink");
+                }
+            });
+            $("#sidebar").on({
+                click: function(){
+                    $(this).text("Leftbar");
+                }
+            });
+            $("#extra").on({
+                click: function(){
+                    $("#main").hide();
+                }
+            });
+            $("footer").on({
+                click: function(){
+                    $("#content").css('display','block');
+                }
+              
+            });
+            $("#close").on({
+                click: function(){
+                    $('#content').css('display','none');
+                }
+            });
+                
+        });
+    </script>
+</body>
+</html>

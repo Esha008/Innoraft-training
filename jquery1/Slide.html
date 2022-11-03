@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous">
+    </script>
+
+    <title>Slide</title>
+</head>
+<body>
+    <div id="btn" style="padding:20px;height: 20px;
+        width: auto; border: 2px solid lightgrey; 
+        text-align:center; background-color:lightgreen; 
+        margin: 10 10 10 0px;">Click me to slide down panel</div>
+
+    <div id="line" style="height: 100px; 
+        width:auto;border: 2px solid lightgrey; 
+        text-align: center; background-color: lightblue; 
+        margin: 10 10 10 0px; padding: 50px; display: none;">
+        Hello world!
+    </div>
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                $("#line").slideDown("slow");
+            });
+        });
+    </script>
+</body>
+</html>

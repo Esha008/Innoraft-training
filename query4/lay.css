@@ -25,7 +25,7 @@ footer{
 #sidebar{
     background-color: rgb(125, 194, 93);
     margin-right: 20px;
-    height: 24rem;
+    height: 23rem;
     width: 20rem;
 }
 
@@ -43,4 +43,22 @@ footer{
 #extra{
     background-color: grey;
     height: 4rem;
+    flex-direction: column;
+}
+
+#content{
+    background-color: rgba(0, 0, 0, 0.469);
+    margin-left: 15rem;
+    height: 67%;
+    width: 79%;
+    padding: 5rem;
+    position: absolute;
+    transform: translate(-25%,-90%);
+    font-size: larger;
+    display: none;
+}
+
+#close{
+    border-radius: 30%;
+    float: right;
 }

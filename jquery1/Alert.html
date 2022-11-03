@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous">
+    </script>
+    <title>Alert</title>
+</head>
+<body>
+    <form>
+        First name:<br>
+        <input type="text" name="f-name" id="f-name" value="Mickey"><br>
+        Last name:<br>
+        <input type="text" name="l-name" id="l-name" value="Mouse"><br>
+        <p></p>
+        <input type="submit"  id="btn" value="Submit">
+    </form>
+    <script>
+        $(document).ready(function(){
+            $('#btn').click(function(){
+                if (!($('#f-name').val())){
+                    alert('Please fill all the fields');
+                }
+                if (!($('#l-name').val())){
+                    alert('Please fill all the fields');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
