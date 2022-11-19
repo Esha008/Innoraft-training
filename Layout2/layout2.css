@@ -17,30 +17,31 @@ footer{
     height:50px;
 }
 
-.flex-container{
+.container{
     display: flex;
     margin:20px;
+    height: 24rem;
 }
 
 #sidebar{
     background-color: rgb(125, 194, 93);
-    margin-right: 20px;
     height: 24rem;
-    width: 20rem;
+    width:17rem;
 }
 
 #box{
-    flex-direction: column;
+    margin-left: 20px;
+    height: 23.5rem;
+    width: 65rem;
 }
 
 #main{
     background-color: rgb(242, 175, 50);
-    margin-bottom: 20px;
     height: 19rem;
-    width: 50rem;
+    margin-bottom: 12px;
 }
 
 #extra{
     background-color: grey;
-    height: 4rem;
+    height: 4.1rem;
 }
