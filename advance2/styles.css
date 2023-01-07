@@ -374,7 +374,7 @@ body{
 
 .head5{
     color: #f6faf9;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 100;
 }
 
@@ -400,7 +400,7 @@ body{
 
 .line{
     color: #b0aab5;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 100;
     padding-top: 10px;
     padding-bottom: 25px;
@@ -510,9 +510,9 @@ body{
 }
 
 .talk{
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 100;
-    color: #665f7a;
+    color: #efe0e5;
     padding: 20px;
     margin-top: 0;
 }
@@ -561,14 +561,14 @@ body{
     flex-wrap: wrap;
 }
 
-.blog{
+.blogs{
     width: 31.7%;
     margin-right: 15px;
     background-color: #fbfaff;
 }
 
 .work{
-    width: 296px;
+    width: 100%;
 }
 
 .info9{
@@ -576,7 +576,7 @@ body{
 }
 
 .blog-head{
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 400;
     color: #3e3a47;
     margin-bottom: 0;
@@ -589,6 +589,7 @@ body{
 .box8{
     background-color: #3a376c;
     max-width: 1400px;
+    margin-top: 25px;
 }
 
 .footer{
